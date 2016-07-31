@@ -1,0 +1,21 @@
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "http://crookedstorm.github.io/stormblog"
+title: "The Adventurer's Apprentice - Brooke Storm's Blog"
+copyright: "(c) 2016 Brooke Storm"
+languageCode: "en-US"
+canonifyurls: true
+paginate: 10
+paginatePath: "page"
+enableEmoji: true
+permalinks:
+  post: "/:year/:month/:slug/"
+  code: "/:slug/"
+params:
+  Subtitle: "Code, survival, quests and life"
+  AuthorName: "Brooke Storm"
+  GitHubUser: "crookedstorm"
+
